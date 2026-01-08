@@ -42,10 +42,19 @@ jobs:
           DB_LIST=$(wrangler d1 list --json)
           DB_ID=$(echo "$DB_LIST" | jq -r '.[] | select(.name == "edgeauth-db") | .uuid')
 
-          if [ -z "$DB_ID" ]; then
+          if [ -z "$DB_ID" ] || [ "$DB_ID" == "null" ]; then
             echo "Creating database edgeauth-db..."
-            DB_OUTPUT=$(wrangler d1 create edgeauth-db --json)
-            DB_ID=$(echo "$DB_OUTPUT" | jq -r '.uuid')
+            # Create database without --json flag (not supported)
+            wrangler d1 create edgeauth-db
+            # Wait a moment for the database to be created, then get the ID
+            echo "Waiting for database to be created..."
+            sleep 3
+            DB_LIST=$(wrangler d1 list --json)
+            DB_ID=$(echo "$DB_LIST" | jq -r '.[] | select(.name == "edgeauth-db") | .uuid')
+            if [ -z "$DB_ID" ] || [ "$DB_ID" == "null" ]; then
+              echo "Error: Failed to get database ID after creation"
+              exit 1
+            fi
             echo "Database created with ID: $DB_ID"
           else
             echo "Database edgeauth-db already exists with ID: $DB_ID"
