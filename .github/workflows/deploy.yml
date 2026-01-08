@@ -132,13 +132,13 @@ jobs:
         working-directory: apps/account-portal
         run: |
           # Check if Pages project exists, create if not
-          if ! wrangler pages project list 2>&1 | grep -q "edgeauth-account-portal"; then
-            echo "Creating Pages project edgeauth-account-portal..."
-            wrangler pages project create edgeauth-account-portal --production-branch=main
+          if ! wrangler pages project list 2>&1 | grep -q "eggauth-account-portal"; then
+            echo "Creating Pages project eggauth-account-portal..."
+            wrangler pages project create eggauth-account-portal --production-branch=main
           fi
 
           # Deploy to Pages (will use custom domain: account.activing.fun)
-          wrangler pages deploy dist --project-name=edgeauth-account-portal --commit-dirty=true
+          wrangler pages deploy dist --project-name=eggauth-account-portal --commit-dirty=true
 
       - name: Deployment Summary
         run: |
@@ -151,7 +151,7 @@ jobs:
           echo "- edgeauth-account" >> $GITHUB_STEP_SUMMARY
           echo "- edgeauth-sso" >> $GITHUB_STEP_SUMMARY
           echo "- edgeauth-oauth" >> $GITHUB_STEP_SUMMARY
-          echo "- edgeauth-account-portal (Pages → account.activing.fun)" >> $GITHUB_STEP_SUMMARY
+          echo "- eggauth-account-portal (Pages → account.activing.fun)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Next Steps:**" >> $GITHUB_STEP_SUMMARY
           echo "1. Verify secrets are set: \`JWT_SECRET\`, \`PLUNK_API_KEY\`" >> $GITHUB_STEP_SUMMARY
