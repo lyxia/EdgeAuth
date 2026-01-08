@@ -136,7 +136,7 @@ export default function RegisterForm({
         <label htmlFor="terms" className="ml-2 text-sm text-gray-700">
           I agree to the{" "}
           <a
-            href="https://deepractice.ai/terms"
+            href="https://activing.fun/terms"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-600 hover:text-primary-700"
@@ -145,7 +145,7 @@ export default function RegisterForm({
           </a>{" "}
           and{" "}
           <a
-            href="https://deepractice.ai/privacy"
+            href="https://activing.fun/privacy"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-600 hover:text-primary-700"

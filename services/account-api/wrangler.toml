@@ -16,14 +16,14 @@ database_id = "placeholder"
 
 # Routes
 [[routes]]
-pattern = "api.deepractice.ai/account/*"
-zone_name = "deepractice.ai"
+pattern = "api.activing.fun/account/*"
+zone_name = "activing.fun"
 
 # Environment variables
 [vars]
-BASE_URL = "https://account.deepractice.ai"
+BASE_URL = "https://account.activing.fun"
 # Temporarily commented out - using Plunk's default verified email
-# EMAIL_FROM = "noreply@deepractice.ai"
+# EMAIL_FROM = "noreply@activing.fun"
 EMAIL_FROM_NAME = "EdgeAuth"
 
 # Secrets (use: wrangler secret put JWT_SECRET)

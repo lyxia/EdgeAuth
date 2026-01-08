@@ -16,9 +16,9 @@ database_id = "placeholder"
 
 # OAuth 2.0 Provider config
 [vars]
-OAUTH_ISSUER = "https://api.deepractice.ai/oauth"
+OAUTH_ISSUER = "https://api.activing.fun/oauth"
 
 # Routes
 [[routes]]
-pattern = "api.deepractice.ai/oauth/*"
-zone_name = "deepractice.ai"
+pattern = "api.activing.fun/oauth/*"
+zone_name = "activing.fun"

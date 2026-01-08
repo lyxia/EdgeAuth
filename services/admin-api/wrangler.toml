@@ -16,7 +16,7 @@ database_id = "placeholder"
 
 # Routes
 [[routes]]
-pattern = "api-internal.deepractice.ai/*"
-zone_name = "deepractice.ai"
+pattern = "api-internal.activing.fun/*"
+zone_name = "activing.fun"
 
 # Secrets (use: wrangler secret put JWT_SECRET)

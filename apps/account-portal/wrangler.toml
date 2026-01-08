@@ -2,5 +2,5 @@ name = "edgeauth-account-portal"
 compatibility_date = "2024-12-01"
 pages_build_output_dir = "dist"
 
-# Custom domain: account.deepractice.ai
+# Custom domain: account.activing.fun
 # Note: Custom domains for Pages need to be configured via Dashboard or API after deployment
