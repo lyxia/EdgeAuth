@@ -137,7 +137,7 @@ jobs:
             wrangler pages project create edgeauth-account-portal --production-branch=main
           fi
 
-          # Deploy to Pages (will use custom domain: account.deepractice.ai)
+          # Deploy to Pages (will use custom domain: account.activing.fun)
           wrangler pages deploy dist --project-name=edgeauth-account-portal --commit-dirty=true
 
       - name: Deployment Summary
@@ -151,7 +151,7 @@ jobs:
           echo "- edgeauth-account" >> $GITHUB_STEP_SUMMARY
           echo "- edgeauth-sso" >> $GITHUB_STEP_SUMMARY
           echo "- edgeauth-oauth" >> $GITHUB_STEP_SUMMARY
-          echo "- edgeauth-account-portal (Pages → account.deepractice.ai)" >> $GITHUB_STEP_SUMMARY
+          echo "- edgeauth-account-portal (Pages → account.activing.fun)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Next Steps:**" >> $GITHUB_STEP_SUMMARY
           echo "1. Verify secrets are set: \`JWT_SECRET\`, \`PLUNK_API_KEY\`" >> $GITHUB_STEP_SUMMARY

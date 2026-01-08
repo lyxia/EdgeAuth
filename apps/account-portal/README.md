@@ -52,7 +52,7 @@ VITE_API_BASE_URL=http://localhost:8788
 ### Production (`.env.production`)
 
 ```
-VITE_API_BASE_URL=https://sso-api.auth.deepractice.ai
+VITE_API_BASE_URL=https://sso-api.auth.activing.fun
 ```
 
 ## Deployment
@@ -62,7 +62,7 @@ VITE_API_BASE_URL=https://sso-api.auth.deepractice.ai
 pnpm deploy
 ```
 
-The app will be available at: `https://login.auth.deepractice.ai`
+The app will be available at: `https://login.auth.activing.fun`
 
 ## API Integration
 
@@ -77,7 +77,7 @@ See [EdgeAuth API Documentation](../../docs/api/README.md) for details.
 
 The login page supports OAuth redirect flow:
 
-1. User visits: `https://login.auth.deepractice.ai?redirect_uri=https://app.example.com/callback`
+1. User visits: `https://login.auth.activing.fun?redirect_uri=https://app.example.com/callback`
 2. User logs in
 3. Redirects to: `https://app.example.com/callback?token=xxx`
 

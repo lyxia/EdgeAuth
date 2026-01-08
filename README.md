@@ -317,11 +317,11 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 
 _Making AI your professional partner_
 
-🌐 [Official Site](https://deepractice.ai) | 🔧 [GitHub](https://github.com/Deepractice) | 📚 [Documentation](https://docs.deepractice.ai) | 💬 [Forum](https://x.deepractice.ai) | 🎮 [Discord](https://discord.gg/rdmPr54K)
+🌐 [Official Site](https://activing.fun) | 🔧 [GitHub](https://github.com/Deepractice) | 📚 [Documentation](https://docs.activing.fun) | 💬 [Forum](https://x.activing.fun) | 🎮 [Discord](https://discord.gg/rdmPr54K)
 
 ### Connect with Founder
 
-<img src="https://brands.deepractice.ai/images/sean-wechat-qrcode.jpg" alt="Sean's WeChat" width="200"/>
+<img src="https://brands.activing.fun/images/sean-wechat-qrcode.jpg" alt="Sean's WeChat" width="200"/>
 
 _Scan to connect with Sean (Founder & CEO) on WeChat_
 
@@ -331,7 +331,7 @@ _Scan to connect with Sean (Founder & CEO) on WeChat_
 
 ## 📞 Support
 
-- 📚 [Documentation](https://docs.deepractice.ai)
+- 📚 [Documentation](https://docs.activing.fun)
 - 🐛 [GitHub Issues](https://github.com/Deepractice/EdgeAuth/issues)
 - 💬 [Discord Community](https://discord.gg/rdmPr54K)
-- 🌐 [Deepractice](https://deepractice.ai)
+- 🌐 [Deepractice](https://activing.fun)

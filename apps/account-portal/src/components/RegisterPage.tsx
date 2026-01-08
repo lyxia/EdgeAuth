@@ -79,7 +79,7 @@ export default function RegisterPage() {
             <p>
               Powered by{" "}
               <a
-                href="https://deepractice.ai"
+                href="https://activing.fun"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-600 hover:text-primary-700 font-medium"
@@ -163,7 +163,7 @@ export default function RegisterPage() {
           <p>
             Powered by{" "}
             <a
-              href="https://deepractice.ai"
+              href="https://activing.fun"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-600 hover:text-primary-700 font-medium"
